@@ -4,12 +4,12 @@ import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+       apiKey: "AIzaSyBJEaVBzC1eAsgtmNHHCeV0Gbx1HxGKYik",
+    authDomain: "hotel-management-f4e64.firebaseapp.com",
+    projectId: "hotel-management-f4e64",
+    storageBucket: "hotel-management-f4e64.firebasestorage.app",
+    messagingSenderId: "94276540145",
+    appId: "1:94276540145:web:49ffc19ff070349e183b50”
 };
 
 const app = initializeApp(firebaseConfig);
